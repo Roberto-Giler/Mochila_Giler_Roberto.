@@ -1,0 +1,19 @@
+1.-git remote: Muestra una lista de los repositorios remotos asociados con el repositorio local.
+
+2.-git fetch: Obtiene los cambios más recientes del repositorio remoto sin fusionarlos automáticamente con la rama actual.
+
+3.-git reset <archivo>: Descarta los cambios realizados en el archivo especificado, eliminándolos del área de preparación (staging area).
+
+4.-git revert <commit>: Crea un nuevo commit que revierte los cambios introducidos por el commit especificado, deshaciendo los cambios.
+
+5.-git rm <archivo>: Elimina el archivo del directorio de trabajo y lo marca para ser eliminado en el siguiente commit.
+
+6.-git mv <archivo_actual> <archivo_nuevo>: Renombra o mueve un archivo en el repositorio y prepara el cambio para el siguiente commit.
+
+7.-git remote -v: Muestra la URL de los repositorios remotos asociados con el repositorio local, tanto para lectura como para escritura.
+
+8.-git stash: Guarda temporalmente los cambios locales sin realizar un commit, permitiéndote cambiar de rama o realizar otras operaciones sin perder los cambios.
+
+9.-git cherry-pick <commit>: Aplica los cambios introducidos por el commit especificado en la rama actual.
+
+10.-git rebase <rama>: Reaplica los cambios de la rama especificada sobre la rama actual, creando una historia lineal y más ordenada.
